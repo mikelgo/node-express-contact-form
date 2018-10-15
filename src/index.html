@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="spacing"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <div class="form-outlet">
+              <!-- <h3>Send me a Message </h3> -->
+              <form action="/contact" id="contact-form" method="post" role="form">
+                  <div class="styled-input">
+                    <input type="text" required id="name" name="name"/>
+                    <label>Name</label>
+                    <span></span>
+                  </div>
+                  <div class="styled-input">
+                      <input type="text" required id="email" name="email"/>
+                      <label>E-mail</label>
+                      <span></span>
+                  </div>
+                  <div class="styled-input wide">
+                      <textarea required id="message" name="message"></textarea>
+                      <label>Message</label>
+                      <span></span>
+                  </div>
+                  <div class="styled-input">
+                    <input type="submit" value="Send">
+                  </div>
+                  
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="spacing"></div>
+          </div>
+        </div>
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>
